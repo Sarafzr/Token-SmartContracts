@@ -19,14 +19,14 @@ This repository contains two comprehensive smart contract projects developed as 
 
 ```
 Tokens_SmartContracts/
-├── p1_erc20_token/                         # Part 1: ERC-20 Token Implementation
+├── p1_erc20_token/             # Part 1: ERC-20 Token Implementation
 │   ├── ERC20.sol               # Custom ERC-20 token with deposit/withdraw functionality
 │   ├── run_tests.py            # Comprehensive test suite (Python/Web3)
 │   ├── requirements.txt        # Python dependencies
 │   ├── README.md               # Project-specific setup instructions
 │   └── ERC20_addr.txt          # Deployed contract address
 │
-├── p2_battle_challenge/                          # Part 2: Smart Contract Challenge
+├── p2_battle_challenge/        # Part 2: Smart Contract Challenge
 │   ├── EthermonLite.sol        # Monster battle game contract
 │   ├── WinBattle.sol           # Exploit contract demonstrating contract interaction
 │   └── WinBattle_ addr.txt     # Deployed contract address with exploit
