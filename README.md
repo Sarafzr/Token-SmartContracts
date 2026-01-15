@@ -81,6 +81,8 @@ A challenge project demonstrating advanced smart contract interactions. The proj
   - Manipulates battle outcomes through strategic name changes
   - Demonstrates understanding of block hash usage and contract state
 
+- **WinBattle_addr.txt**: https://eth-holesky.blockscout.com/address/0x030aF9f96B15ebaB7F338AA26472A7f4F4a02804?tab=index
+
 #### Technical Highlights
 
 - Interface-based contract communication
