@@ -19,14 +19,14 @@ This repository contains two comprehensive smart contract projects developed as 
 
 ```
 Tokens_SmartContracts/
-├── p1/                          # Part 1: ERC-20 Token Implementation
+├── p1_erc20_token/                         # Part 1: ERC-20 Token Implementation
 │   ├── ERC20.sol               # Custom ERC-20 token with deposit/withdraw functionality
 │   ├── run_tests.py            # Comprehensive test suite (Python/Web3)
 │   ├── requirements.txt        # Python dependencies
 │   ├── README.md               # Project-specific setup instructions
 │   └── ERC20_addr.txt          # Deployed contract address
 │
-├── p2/                          # Part 2: Smart Contract Challenge
+├── p2_battle_challenge/                          # Part 2: Smart Contract Challenge
 │   ├── EthermonLite.sol        # Monster battle game contract
 │   ├── WinBattle.sol           # Exploit contract demonstrating contract interaction
 │   └── WinBattle_ addr.txt     # Deployed contract address with exploit
@@ -38,7 +38,7 @@ Tokens_SmartContracts/
 
 ### Part 1: ERC-20 Token with Wrapped Ether Functionality
 
-**Location**: `p1/`
+**Location**: `p1_erc20_token/`
 
 A fully functional ERC-20 token implementation that extends the standard with deposit and withdraw capabilities, similar to Wrapped Ether (WETH). Users can deposit Ether to mint tokens and withdraw tokens to receive Ether back.
 
@@ -64,7 +64,7 @@ A fully functional ERC-20 token implementation that extends the standard with de
 
 ### Part 2: Smart Contract Interaction Challenge
 
-**Location**: `p2/`
+**Location**: `p2_battle_challenge/`
 
 A challenge project demonstrating advanced smart contract interactions. The project includes a game contract (`EthermonLite`) where players battle monsters, and an exploit contract (`WinBattle`) that demonstrates understanding of contract interfaces, block hash manipulation, and strategic contract interactions.
 
